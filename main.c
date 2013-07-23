@@ -39,11 +39,11 @@ void init(void)
 void main(void)
 {
 	Uint32 ctr=0;
-	//
 
 	init();
 
 	UARTprintf("*********\ni'm alive\n");
+	UARTprintf("damn it feels good to be a gangsta\n\n");
 
 	while(1)
 	{

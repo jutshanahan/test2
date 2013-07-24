@@ -32,7 +32,7 @@ void init(void)
 	EDIS;
 
 	// Intialize UART(INT_SCIRXINTA, UARTStdioIntHandler);
-	UARTStdioInitExpClk(0,9600);
+	UARTStdioInitExpClk(0,115200);
 
 
 }
@@ -43,16 +43,17 @@ void main(void)
 	init();
 
 	UARTprintf("*********\ni'm alive\n");
-	UARTprintf("damn it feels good to be a gangsta\n\n");
+	UARTprintf("damn it feels good to be a gangsta\n");
+	UARTprintf("now featuring CCSv5.4  woo. hoo.\n");
 
 	while(1)
 	{
 
 		LEDON;
-		DELAY_US(50000);
+		DELAY_US(100);
 		LEDOFF;
-		DELAY_US(1000000);
-		UARTprintf("%d\n",ctr++);
+		DELAY_US(100);
+		//UARTprintf("%d\n",ctr++);
 
 		//GpioDataRegs.GPBDAT.all = 0x00000000;
 		//DELAY_US(100);

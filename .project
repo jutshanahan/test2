@@ -84,37 +84,38 @@
 		<link>
 			<name>F2806x_CodeStartBranch.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/F2806x_common/source/F2806x_CodeStartBranch.asm</locationURI>
+			<locationURI>DEVICE_SUPPORT/F2806x_common/source/F2806x_CodeStartBranch.asm</locationURI>
 		</link>
 		<link>
 			<name>F2806x_GlobalVariableDefs.c</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/F2806x_headers/source/F2806x_GlobalVariableDefs.c</locationURI>
+			<locationURI>DEVICE_SUPPORT/F2806x_headers/source/F2806x_GlobalVariableDefs.c</locationURI>
 		</link>
 		<link>
 			<name>F2806x_Headers_nonBIOS.cmd</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/F2806x_headers/cmd/F2806x_Headers_nonBIOS.cmd</locationURI>
+			<locationURI>DEVICE_SUPPORT/F2806x_headers/cmd/F2806x_Headers_nonBIOS.cmd</locationURI>
 		</link>
 		<link>
 			<name>F2806x_SysCtrl.c</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/F2806x_common/source/F2806x_SysCtrl.c</locationURI>
+			<locationURI>DEVICE_SUPPORT/F2806x_common/source/F2806x_SysCtrl.c</locationURI>
 		</link>
 		<link>
 			<name>F2806x_usDelay.asm</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/F2806x_common/source/F2806x_usDelay.asm</locationURI>
-		</link>
-		<link>
-			<name>sysctl.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/MWare/driverlib/sysctl.c</locationURI>
+			<locationURI>DEVICE_SUPPORT/F2806x_common/source/F2806x_usDelay.asm</locationURI>
 		</link>
 		<link>
 			<name>uartstdio.c</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/controlSUITE/device_support/f2806x/v130/MWare/utils/uartstdio.c</locationURI>
+			<locationURI>DEVICE_SUPPORT/MWare/utils/uartstdio.c</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>DEVICE_SUPPORT</name>
+			<value>file:/C:/ti/controlSUITE/device_support/f2806x/v136</value>
+		</variable>
+	</variableList>
 </projectDescription>
